@@ -1,0 +1,210 @@
+/* --- NAVBAR-START --- */
+.navbar-logo img {
+    width: 25%;
+}
+
+.navbar-sign-up {
+    background: linear-gradient(90deg, #6E49E6 0%, #47B2FE 100%) !important;
+    color: #FFFFFF !important;
+    /* White text for contrast */
+    border: none !important;
+    /* padding: 15px 30px !important; */
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 30px !important;
+    /* Slightly rounded corners */
+    font-weight: bold !important;
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
+    /* Smooth hover effect */
+}
+
+.navbar-sign-up:hover {
+    /* You can slightly adjust the gradient or add a subtle shadow on hover */
+    background: linear-gradient(90deg, #7A53FF 0%, #5BC0FF 100%) !important;
+}
+
+.nav-bg-color {
+    background-color: #13151D !important;
+}
+
+.navbar-text-color a {
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+
+/* --- NAVBAR-END --- */
+/* --- HERO-start--- */
+.home-button {
+    background: linear-gradient(90deg, #6E49E6 0%, #47B2FE 100%) !important;
+    color: #FFFFFF !important;
+    /* White text for contrast */
+    border: none !important;
+    padding: 15px 30px !important;
+    border-radius: 30px !important;
+    /* Slightly rounded corners */
+    font-weight: bold !important;
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
+    /* Smooth hover effect */
+    text-decoration: none;
+}
+
+.home-button:hover {
+    /* You can slightly adjust the gradient or add a subtle shadow on hover */
+    background: linear-gradient(90deg, #7A53FF 0%, #5BC0FF 100%) !important;
+}
+
+.hero-main-text {
+    padding: 80px 0 95px 0;
+    color: white;
+}
+
+.hero-main-text a,
+.hero-main-text p,
+.hero-main-text h1 {
+    margin-top: 20px !important;
+
+}
+
+.hero-bg-img {
+    background-image: url(../img/crop_magic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #151531; */
+    width: 100%;
+    background-position: center;
+}
+
+/* --- HERO-END --- */
+/* --- TOOL-START--- */
+.Tool {
+    padding: 70px 0px;
+    background: linear-gradient(to bottom, #190b3b, #0c071d);
+    border-bottom: 2px solid #13151D;
+}
+
+.heading-tool h1 {
+    color: #FAFAFA;
+
+}
+
+.tool-card-icon i {
+    font-size: 60px;
+    color: white;
+}
+
+.tool-main-card-padding {
+
+    padding: 20px !important;
+}
+
+.tool-main-card {
+
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.tool-main-card:hover {
+    transform: translateY(-5px);
+}
+
+.tool-main-card-heading h3 {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.tool-main-card-text span {
+    font-size: 1em;
+    color: #a0a0a0;
+    /* Lighter grey text color */
+    line-height: 1.4;
+}
+
+/* --- TOOL-END --- */
+/* --- TOOL-VIRAL-START --- */
+.Tool-viral {
+    color: white;
+}
+
+.tool-viral-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tool-viral-icons i {
+    font-size: 50px;
+    /* background-color: red; */
+    padding: 20px;
+    border-radius: 100%;
+    border: solid 2px #47B2FE;
+    color: white;
+
+}
+
+/* --- TOOL-VIRAL-END --- */
+/* --- PRICE-START --- */
+.Price {
+    padding: 70px 0px;
+    background: linear-gradient(to top, #190b3b, #0c071d);
+    color: white;
+
+}
+
+.heading-price h1 {
+    color: #FAFAFA;
+
+}
+
+.price-card-padding {
+
+    padding: 20px !important;
+}
+
+.price-card {
+
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.price-card:hover {
+    transform: translateY(-5px);
+}
+
+.customize-button {
+    text-align: center;
+
+
+}
+
+.customize-button a :hover {
+    /* You can slightly adjust the gradient or add a subtle shadow on hover */
+    background: linear-gradient(90deg, #7A53FF 0%, #5BC0FF 100%) !important;
+}
+
+.customize-button a {
+    background: linear-gradient(90deg, #6E49E6 0%, #47B2FE 100%) !important;
+    border: none !important;
+    border-radius: 30px !important;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
+    /* Smooth hover effect */
+    text-decoration: none;
+    padding: 20px 100px !important;
+    font-size: 22px;
+}
+
+/* --- PRICE-END --- */
+/* --- MODELS-START --- */
+/* --- MODELS-END --- */
