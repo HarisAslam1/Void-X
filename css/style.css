@@ -80,7 +80,7 @@
 /* --- HERO-END --- */
 /* --- TOOL-START--- */
 .Tool {
-    padding: 70px 0px;
+    padding: 100px 0px;
     background: linear-gradient(to bottom, #190b3b, #0c071d);
     border-bottom: 2px solid #190b3b;
 }
@@ -97,7 +97,8 @@
 
 .tool-main-card-padding {
 
-    padding: 20px !important;
+    padding: 10px 20px !important;
+    /* padding-top: 10px; */
 }
 
 .tool-main-card {
@@ -150,9 +151,9 @@
 /* --- TOOL-VIRAL-END --- */
 /* --- PRICE-START --- */
 .Price {
-    padding: 70px 0px;
+    padding: 100px 0px;
     background: linear-gradient(to top, #190b3b, #0c071d);
-      border-bottom: 2px solid #0c071d;
+    border-bottom: 2px solid #0c071d;
 
 
 }
@@ -209,14 +210,16 @@
 /* --- PRICE-END --- */
 /* --- MODaLS-START --- */
 .Modals {
-     padding: 70px 0px;
+    padding: 100px 0px;
     color: white;
     background: linear-gradient(to bottom, #190b3b, #0c071d);
-      border-bottom: 2px solid #190b3b;
+    border-bottom: 2px solid #190b3b;
 }
-.modal-card-padding a{
+
+.modal-card-padding a {
     text-decoration: none;
 }
+
 .modal-card-padding {
 
     padding: 20px !important;
@@ -236,7 +239,7 @@
     transform: translateY(-5px);
 }
 
-.modal-card-icon i{
+.modal-card-icon i {
     color: #6E49E6;
     background-color: #190b3b;
     padding: 20px;
@@ -244,13 +247,72 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 10px;
 }
+
+.modal-integrate-card {
+    color: white;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #6E49E6;
+    transition: transform 0.3s ease;
+}
+
+.modal-integrate-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* --- MODaLS-END --- */
 
 /* --- WHY-START --- */
-.Why{
-     padding: 70px 0px;
+.Why {
+    padding: 100px 0px;
     color: white;
     background: linear-gradient(to top, #190b3b, #0c071d);
-      border-bottom: 2px solid #0c071d;
+    border-bottom: 2px solid #0c071d;
 }
+
+.why-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-text h3 i {
+    color: #6E49E6;
+    background-color: #190b3b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.why-text span {
+    color: #6E49E6;
+}
+
 /* --- WHY-END --- */
+
+/* --- FAQS-START --- */
+
+.Faqs {
+    padding: 100px 0px;
+    color: white;
+    background: linear-gradient(to bottom, #190b3b, #0c071d);
+    border-bottom: 2px solid #190b3b;
+}
+/* --- FAQS-END --- */
+/* --- SOOTER-START --- */
+.Footer{
+     padding: 100px 0px;
+    color: white;
+    background: linear-gradient(to top, #190b3b, #0c071d);
+    border-bottom: 2px solid #0c071d;
+
+}
+.ggg{
+    font-size: 30px;
+}
+/* --- SOOTER-END --- */
