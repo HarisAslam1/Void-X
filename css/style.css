@@ -32,6 +32,9 @@
     color: #FFFFFF;
     margin-left: 30px;
 }
+.navbar-text-color a:hover{
+    color: #6E49E6 !important;
+}
 
 
 /* --- NAVBAR-END --- */
@@ -80,6 +83,7 @@
 /* --- HERO-END --- */
 /* --- TOOL-START--- */
 .Tool {
+    color: white;
     padding: 100px 0px;
     background: linear-gradient(to bottom, #190b3b, #0c071d);
     border-bottom: 2px solid #190b3b;
@@ -91,7 +95,7 @@
 }
 
 .tool-card-icon i {
-    font-size: 60px;
+    font-size: 23px;
     color: white;
 }
 
@@ -103,8 +107,9 @@
 
 .tool-main-card {
 
-    padding: 20px 40px;
-    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px 30px;
+    /* background-color: rgba(255, 255, 255, 0.05); */
+    background-color: rgb(110, 73, 230, 0.5);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -115,16 +120,21 @@
     transform: translateY(-5px);
 }
 
+.compare-card-2 .tool-main-card {
+    background-color: rgb(110, 73, 230);
+    border: 1px solid rgb(110, 73, 230, 0.1);
+}
+
 .tool-main-card-heading h3 {
     color: #ffffff;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 }
 
 .tool-main-card-text span {
     font-size: 1em;
     color: #a0a0a0;
     /* Lighter grey text color */
-    line-height: 1.4;
+    /* line-height: 1.4; */
 }
 
 /* --- TOOL-END --- */
@@ -212,8 +222,8 @@
 .Modals {
     padding: 100px 0px;
     color: white;
-    background: linear-gradient(to bottom, #190b3b, #0c071d);
-    border-bottom: 2px solid #190b3b;
+    background: linear-gradient(to top, #190b3b, #0c071d);
+    border-bottom: 2px solid #0c071d;
 }
 
 .modal-card-padding a {
@@ -271,8 +281,8 @@
 .Why {
     padding: 100px 0px;
     color: white;
-    background: linear-gradient(to top, #190b3b, #0c071d);
-    border-bottom: 2px solid #0c071d;
+    background: linear-gradient(to bottom, #190b3b, #0c071d);
+    border-bottom: 2px solid #190b3b;
 }
 
 .why-text {
@@ -303,16 +313,100 @@
     background: linear-gradient(to bottom, #190b3b, #0c071d);
     border-bottom: 2px solid #190b3b;
 }
+
+.change-accordion-item {
+    border-radius: 12px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid #6E49E6 !important;
+    background-color: #6E49E6 !important;
+    color: white !important;
+}
+
+.change-accordion {
+    /* --bs-accordion-border-radius: var(--bs-border-radius); */
+    /* --bs-accordion-border-radius: 0% !important; */
+    /* border: none; */
+    /* border-bottom: 100px solid yellow !important; */
+    border-color: green !important;
+    box-shadow: none;
+    --bs-accordion-border-color: none !important;
+
+}
+
+.change-accordion-button {
+    /*background-color: #ffffff0d !important;*/
+    border-radius: 12px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid #6E49E6 !important;
+    background-color: #190b3b !important;
+    color: white !important;
+    /* box-shadow: none; */
+    /*/*border: 1px solid red !important;
+    */
+    /*border-radius: 0% !important;
+    */
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    -ms-border-radius: 12px !important;
+    -o-border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+}
+
+.accordion-button::after {
+
+    background-image: url("../img/plus-solid-full.svg") !important;
+    transition: all 0.5s;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../img/minus-solid-full.svg") !important;
+}
+
+.accordion-button::after {
+    transition: all 0.5s;
+}
+
+
 /* --- FAQS-END --- */
-/* --- SOOTER-START --- */
-.Footer{
-     padding: 100px 0px;
+
+/* --- FOOTER-START --- */
+.Footer {
+
+    padding: 100px 0px;
     color: white;
     background: linear-gradient(to top, #190b3b, #0c071d);
     border-bottom: 2px solid #0c071d;
 
 }
-.ggg{
-    font-size: 30px;
+.footer-center-text a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
-/* --- SOOTER-END --- */
+.footer-center-text a :hover{
+ color: #6E49E6;
+}
+.footer-social-1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social-1 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+}
+.footer-social-1 a:hover{
+      color: #6E49E6;
+      transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+}
+
+/* --- FOOTER-END --- */
