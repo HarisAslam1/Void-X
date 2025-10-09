@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIX-AI-Sign-In</title>
+    <!----STYLE.CSS-LINK---->
+    <link rel="stylesheet" href="css/tool.css">
+    <!----JAVA-CDN---->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="/js/my.js"></script>
+    <script src="https://unpkg.com/ityped@0.0.10"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!----owl.carousel-CDN---->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!----FONTAWESOME-CDN---->
+    <script src="https://kit.fontawesome.com/aa6e3c133e.js" crossorigin="anonymous"></script>
+    <!----BOOTSTRAP-LINK---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- ---- NAVBAR-START ---- -->
+
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary-none nav-bg-color">
+        <div class="container">
+            <a class="navbar-brand navbar-logo" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" style="display:  bloc;">
+                <div class="navbar-nav justify-content-around  navbar-text-color ">
+
+                    <a class="nav-link " aria-current="page" href="#HOME">Home</a>
+                    <a class="nav-link  " href="#">Features</a>
+                    <a class="nav-link " href="#">How It Works</a>
+                    <a class="nav-link " href="#">Pricing</a>
+                    <a class="nav-link " href="#">FAQ</a>
+                    <a class="nav-link navbar-sign-up" href="#">Sign Up Free</a>
+
+                </div>
+            </div>
+        </div>
+    </nav> -->
+    <!-- ---- NAVBAR-END ---- -->
+    <!-- ---- SIDEBAR-START ---- -->
+    <div class="container-fluid">
+        <div class="row Sidebar-row">
+            <div class="col-md-3 Sidebar fixed-to">
+                <!-- <div class="wrapper">
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        
+                    </button>
+                    <nav id="sidebar"></nav>
+                    
+                    <img src="img/logo.png" alt="" style="width: 20%;">
+                </div> -->
+                <div class="row ">
+                    <div class="col-md-12 sidebar-header">
+                        <div class="d-flex flex-column flex-shrink-0 p-3 " style="width: 100%;">
+                            <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-decoration-none">
+                                <img src="img/pix_AI_logo-removebg-preview.png" alt="">
+                                <span class="fs-4 ms-3">PIX-AI</span>
+                            </a>
+                            <hr>
+                            <ul class="nav nav-pills flex-column mb-auto sidebar-link">
+                                <li class="nav-item ">
+                                    <a href="#" class="nav-link Active" aria-current="page">
+                                        <i class="fa-solid fa-clock"></i>
+                                        Post Schedular
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link ">
+                                        <i class="fa-solid fa-clock"></i>
+                                        Downloader
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link ">
+                                        <i class="fa-solid fa-clock"></i>
+                                        Long To Short
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link ">
+                                        <i class="fa-solid fa-clock"></i>
+                                        Trend Analysis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link ">
+                                        <i class="fa-solid fa-clock"></i>
+                                        Influencer Video
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link ">
+                                        <i class="fa-solid fa-clock"></i>
+                                        Trending Video Generater
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <!-- <div class="dropdown">
+                                <a href="#"
+                                    class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                                    id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="https://github.com/mdo.png" alt="" width="32" height="32"
+                                        class="rounded-circle me-2">
+                                    <strong>mdo</strong>
+                                </a>
+                                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-9 d-flex flex-column align-items-center justify-content-center main-app">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <h1>wellcome</h1>
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+
+
+                        <form action="#" class="">
+                            <div class="row app-textarea-border">
+                                <div class="col-md-12">
+
+                                    <textarea name="" id="" autofocus class="main-app-textarea"></textarea>
+                                </div>
+                                <div class="col-md-12 d-flex justify-content-between">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown button
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div>
+                                    <button type="submit" class="app-btn">Generate</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 mt-4 d-flex justify-content-evenly">
+                                    <button type="submit" class="app-btn-model-select">Generate</button>
+                                    <button type="submit" class="app-btn-model-select">Generate</button>
+                                    <button type="submit" class="app-btn-model-select">Generate</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ---- SIDEBAR-END ---- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!----STYLE-JAVA-SCRIPT---->
+        <script src="js/style.js"></script>
+        <!----BOOTSTRAP-SCRIPT---->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <!-- <script>
+            $(document).ready(function () {
+                $("#sidebarCollapse").on("click", function () {
+                    $("#sidebar").toggleClass("active");
+                    $(this).toggleClass("active");
+                });
+            });
+
+        </script> -->
+        <script>
+            var textarea = document.querySelector('textarea');
+
+            textarea.addEventListener('keydown', autosize);
+
+            function autosize() {
+                var el = this;
+                setTimeout(function () {
+                    el.style.cssText = 'height:auto; padding:0';
+                    // for box-sizing other than "content-box" use:
+                    // el.style.cssText = '-moz-box-sizing:content-box';
+                    el.style.cssText = 'height:' + el.scrollHeight + 'px';
+                }, 0);
+            }
+        </script>
+</body>
+
+</html>
